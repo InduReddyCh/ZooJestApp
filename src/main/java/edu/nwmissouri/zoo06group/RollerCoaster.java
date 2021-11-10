@@ -8,7 +8,7 @@ package edu.nwmissouri.zoo06group;
  *
  * @author Nikhil Krishnan Venkatesh
  */
-public class RollerCoaster {
+public class RollerCoaster extends AdventureRides{
     private int wheels;
     private int players;
     private String ticketType;
@@ -38,14 +38,22 @@ public class RollerCoaster {
     }
     
     
+<<<<<<< HEAD
+=======
+   @Override
+>>>>>>> 85fa132ac23d884721190e7c9558d77d49c9b505
     public String resultOfGame(){
+        System.out.println("You won the game");
         return "You never Loose";
     }
     
-    public String onlineBooking(){
+    @Override
+    public  String onlineBooking(){
+         System.out.println("Welcome to adventure rides");
     return "Your ticket is booked";
     }
     
+<<<<<<< HEAD
     public String rotations(){
     return "Gives the count of the rotations";
     }
@@ -53,5 +61,13 @@ public class RollerCoaster {
     public void run() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+=======
+    public static int rotations(){
+        System.out.println("You successfully stayed alive");
+    return 0;
+    }
+
+   
+>>>>>>> 85fa132ac23d884721190e7c9558d77d49c9b505
     
 }
