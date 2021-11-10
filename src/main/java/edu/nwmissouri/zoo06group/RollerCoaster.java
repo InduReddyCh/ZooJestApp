@@ -38,7 +38,6 @@ public class RollerCoaster {
     }
     
     
-     @Override
     public String resultOfGame(){
         return "You never Loose";
     }
@@ -47,11 +46,10 @@ public class RollerCoaster {
     return "Your ticket is booked";
     }
     
-    public int rotations(){
+    public String rotations(){
     return "Gives the count of the rotations";
     }
 
-    @Override
     public void run() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

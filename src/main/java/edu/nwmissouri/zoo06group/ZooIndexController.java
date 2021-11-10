@@ -149,4 +149,5 @@ public class ZooIndexController {
         String stringOutput = newStream.toString();
         return stringOutput;
     }
+}
 
